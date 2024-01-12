@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Example</h1>
+
+    <!-- The Action atribute allows us to specify how the form data will be processed -->
+    <form action="#">
+        <!-- The 'for' attribute must match the value of the 'id' attribute of the associated  -->
+        <label for="NameField">Name:</label>
+        <input id="NameField" type="text" placeholder="John Smith...">
+        <!-- Placeholder - an example of what can be put im -->
+
+        <br>
+
+        <label for="pass">Password</label>
+        <input id="pass" type="password" required>
+        <!-- type = password - will show as dots -->
+        <!-- *required - will make it a required input field, user won't be able to submit the form without it -->
+
+        <br>
+
+        <label for="mail">Email:</label>
+        <input id="mail" type="email" required>
+
+        <br>
+
+        <label for="phone">Phone number:</label>
+        <input id="phone" type="tel" placeholder="(+44)123456">
+
+        <br>
+
+        <label for="dob">DOB:</label>
+        <input id="dob" type="date">
+
+        <label for="">DOB:</label>
+        <input type="date">
+
+        <br>
+
+        <button>Submit</button>
+
+        <br>
+
+        <input type="reset" value="Clear">
+
+        <br>
+
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
